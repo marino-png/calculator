@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    text-align: end;
+}
+.keyboard{
+    display: flex;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.simbol{
+    display: flex;
+    flex-direction: column;
+}
+.numbers>button{
+    flex-basis: calc(33.33% - 10px);
+}
+#numberZero{
+    flex-grow: 4;
+}
