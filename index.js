@@ -7,6 +7,7 @@
     const equalSimbol = document.querySelector('.equal');
     equalSimbol.addEventListener('click', () => {
         operation();
+        operator = '';
     });
 
     function operation(){
@@ -86,6 +87,11 @@
     }
 
     function divide(num1,num2){
-        return num1 / num2;
+        if ( num2 === 0){
+            result = "you cannot dived by zero"
+            return result
+        }else {
+            return num1 / num2;
+        }
     }
 });
