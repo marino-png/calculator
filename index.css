@@ -13,6 +13,8 @@ body{
     color: #06f406;
     background-color:rgba(13, 129, 13, 0.9);
     border-radius: 10px ;
+    border: black solid 2px;
+    padding: 4px;
 }
 .keyboard{
     display: flex;
@@ -36,4 +38,7 @@ button{
 }
 #numberZero{
     flex-grow: 4;
+}
+.cointainer {
+ padding: 4px;
 }
